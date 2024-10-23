@@ -1,0 +1,92 @@
+/* estilos globales */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #81A263;
+    font-family: "Bigelow Rules", serif; 
+}
+h1,h2,h3,p{
+    text-align: center;
+}
+/* estilos del encabezado */
+.encabezado{
+    background-color: #365E32;
+    color: #E7D37F;
+    padding: 20px;
+}
+.navegacion{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion a{
+    color: #FD9B63;
+    text-decoration: none;
+    padding: 10px 20px ;
+}
+.navegacion a:hover{
+    background-color: black;
+    
+}
+/* estilos secciones */
+.seccion{
+    padding: 20px;    
+}
+.subtitulo{
+    font-size: 32px;
+}
+
+/*animales*/
+.contenedor-animales{
+    border: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    min-width: 400px;
+    
+}
+.animal{
+    background-color: #365E32;
+    border-radius: 20px;
+    padding: 15px;
+    width: 30%;
+}
+.animal img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* estilo contacto */
+.formulario{
+    display: flex;
+    flex-direction:column;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.input, .textarea{
+    margin-bottom: 10px;
+    padding:10px;
+    border-radius: 5px;
+    font-size: 10px;
+    border: 1px solid;
+    background-color: #E7D37F;
+}
+.boton{
+    background-color: #FD9B63;
+    padding: 10px;
+
+}
+.boton:hover{
+    background-color:#365E32;
+}
+/* estilos pie de pagina */
+.pie{
+    background-color:#81A263;
+    padding:10px;
+    color:#E7D37F;
+}
